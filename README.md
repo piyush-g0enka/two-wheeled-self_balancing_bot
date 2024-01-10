@@ -4,9 +4,9 @@
 
 In this project, we have successfully developed a 2-wheeled self-balancing robot. The key mechanism involves measuring the tilt of the bot using an accelerometer and gyroscope, and then adjusting the wheel movement to counteract the imbalance. A complementary filter enhances the accuracy of the accelerometer and gyroscope readings.
 
-![robot gif](https://github.com/piyush-g0enka/two-wheeled-self_balancing_bot/blob/master/Two%20wheeled%20self%20balancing%20bot/two-wheel-robot.gif)
-
 Initially, we implemented a Linear Quadratic Regulator (LQR) controller; however, complications arose due to the physical limitations of the bot. Subsequently, we transitioned to a Cascaded Proportional Derivative (PD) controller, specifically employed to regulate motor speed.
+
+![robot gif](https://github.com/piyush-g0enka/two-wheeled-self_balancing_bot/blob/master/Two%20wheeled%20self%20balancing%20bot/two-wheel-robot.gif)
 
 ## Project Components
 
